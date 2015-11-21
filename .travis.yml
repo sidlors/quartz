@@ -1,6 +1,6 @@
 language: java
 before_install:
-  - pip install --user 96dd3622-1a1d-419d-a386-ce257ffee151
+  - pip install codecov
 after_success:
-  - 96dd3622-1a1d-419d-a386-ce257ffee151
+  - codecov
 
